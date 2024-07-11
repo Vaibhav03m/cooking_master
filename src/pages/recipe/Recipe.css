@@ -1,0 +1,54 @@
+.recipe {
+  max-width: 900px;
+  margin: 40px auto;
+  text-align: center;
+  background: #fff;
+  padding: 40px;
+  box-sizing: border-box;
+}
+
+.recipe ul {
+  display: flex;
+  padding: 0;
+  justify-content: center;
+  margin: 10px;
+}
+
+.recipe li {
+  list-style-type: none;
+  margin-top: 10px;
+  margin-right: 10px;
+  color: #777;
+}
+
+.recipe li:first-child::after {
+  content: ": ";
+}
+
+.recipe li::after {
+  content: ",";
+}
+
+.recipe li:last-child::after {
+  content: ".";
+}
+
+.method {
+  text-align: left;
+  line-height: 1.5em;
+  margin: 25px;
+}
+
+.update-btn {
+  background-color: #58249c;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  font-size: 1rem;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.update-btn:hover {
+  background-color: #401b73;
+}

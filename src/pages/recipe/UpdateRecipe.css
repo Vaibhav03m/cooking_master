@@ -1,0 +1,124 @@
+.update-recipe {
+  color: #555;
+  max-width: 600px;
+  margin: 60px auto;
+  background: #fff;
+  padding: 40px;
+  box-sizing: border-box;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.update-recipe .update-title {
+  font-size: 2rem;
+  margin-bottom: 10px;
+}
+
+.update-recipe .update-form {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.update-recipe .form-label {
+  font-size: 1.2rem;
+  margin-bottom: 10px;
+}
+
+.update-recipe .form-input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  font-size: 1rem;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+.update-recipe .form-textarea {
+  resize: vertical;
+  min-height: 150px;
+}
+
+.update-recipe .ingredients {
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.update-recipe .ingredients input[type="text"] {
+  flex: 1;
+  padding: 10px;
+  margin-right: 10px;
+  font-size: 1rem;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+.update-recipe .ingredients button {
+  background-color: #58249c;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  font-size: 1rem;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.update-recipe .ingredients button:hover {
+  background-color: #401b73;
+}
+
+.ingredients-list{
+  list-style-type: none;
+  display: flex;
+  font-size: 1rem;
+  margin: 10px;
+}
+
+.ingredients-list li{
+  margin-right: 10px;
+}
+
+.update-recipe .submit-button {
+  margin-top: 20px;
+}
+
+.update-recipe .submit-button button {
+  background-color: #58249c;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  font-size: 1rem;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.update-recipe .submit-button button:hover {
+  background-color: #401b73;
+}
+
+.update-recipe .loading {
+  font-size: 1.2rem;
+  color: #666;
+  margin-top: 20px;
+}
+
+.update-recipe .error {
+  color: red;
+  font-size: 1rem;
+  margin: 20px;
+}
+
+.delete-button {
+  background-color: red;
+  color: white;
+  padding: 2px 4px;
+  margin: 2px;
+  font-size: 1rem;
+  cursor: pointer;
+  border-radius: 4px;
+}
